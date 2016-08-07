@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var myName:String = ""
+    var score:Int = 0;
     
     @IBOutlet weak var firstLabel: UILabel!
     
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
         myName = "is great always"
         print(myName)
         firstLabel.text = "Jai Shri Ram! \(myName)"
-        godLabel.text = "to show the power of God"
+        self.firstMethod(10,iVal:10)
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,10 +31,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func firstMethod(){
-        let score:Int = 100
+    func firstMethod(points:Int,iVal:Int){
+        for _ in 1...iVal {
+            score += points
+        }
         
-        print(score);
+        godLabel.text = "Score: \(score)"
     }
 
 
