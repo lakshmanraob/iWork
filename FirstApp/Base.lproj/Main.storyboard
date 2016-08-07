@@ -29,6 +29,27 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5a-ek-Wzt">
+                                <rect key="frame" x="153" y="97" width="99" height="30"/>
+                                <state key="normal" title="Jesus"/>
+                                <connections>
+                                    <action selector="LdChrist:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IK1-6l-lgg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cai-8c-H9E">
+                                <rect key="frame" x="284" y="97" width="99" height="30"/>
+                                <state key="normal" title="Allah"/>
+                                <connections>
+                                    <action selector="LdMohammad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRL-em-JL6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eox-Az-R8P">
+                                <rect key="frame" x="35" y="97" width="99" height="30"/>
+                                <state key="normal" title="Krishna"/>
+                                <connections>
+                                    <action selector="LdKrishan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgQ-dp-Hkd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
